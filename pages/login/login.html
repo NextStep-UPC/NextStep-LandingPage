@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesión - Pathly</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body>
+    <section class="login">
+      <div class="login-container">
+        <div class="login-form">
+          <div class="login-form-content">
+            <a href="../../index.html" class="back-link">← Volver a ‘Inicio’</a>
+
+            <h1 class="login-title">PATHLY</h1>
+            <h2 class="login-subtitle">¡Bienvenido/a de vuelta!</h2>
+
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="email">Correo electrónico <span>*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Ingresa tu correo"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="password">Contraseña <span>*</span></label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  required
+                  placeholder="Ingresa tu contraseña"
+                />
+              </div>
+
+              <p class="form-link">
+                ¿No tienes una cuenta?
+                <a href="../../register.html">¡Crea una nueva ahora!</a>
+              </p>
+
+              <button type="submit" class="btn login-btn">
+                Iniciar sesión
+              </button>
+
+              <p class="form-link">
+                ¿Has olvidado tu contraseña?
+                <a href="../../reset-password.html"
+                  >¡Haz clic aquí para recuperarla!</a
+                >
+              </p>
+            </form>
+
+            <p class="technical-support">
+              ¿Tienes problemas técnicos? <a href="#">¡Contáctanos!</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="login-image">
+          <img src="../../assets/images/login-photo.png" alt="Login Image" />
+        </div>
+      </div>
+    </section>
+
+    <script src="login.js"></script>
+  </body>
+</html>
